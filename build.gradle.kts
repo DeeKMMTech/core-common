@@ -48,7 +48,7 @@ kotlin {
 
 
 android {
-    namespace = "com.dee.themovie.shared"
+    namespace = "com.dee.shared.common"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
